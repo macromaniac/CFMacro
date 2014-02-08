@@ -76,8 +76,8 @@ _TeamCity*
 *.ncrunch*
 .*crunch*.local.xml
 
-# Installshield output folder
-[Ee]xpress/
+# Installshield output folder 
+# [Ee]xpress/
 
 # DocProject is a documentation generator add-in
 DocProject/buildhelp/
