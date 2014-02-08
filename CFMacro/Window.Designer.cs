@@ -76,6 +76,7 @@
             this.Controls.Add(this.stockPrice);
             this.Controls.Add(this.pictureBox);
             this.Name = "Window";
+            this.ShowIcon = false;
             this.Text = "*";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             this.ResumeLayout(false);
