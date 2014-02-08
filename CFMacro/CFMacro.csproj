@@ -32,6 +32,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MaasOne, Version=0.11.2.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\MaasOne.dll</HintPath>
+    </Reference>
+    <Reference Include="MaasOne.Microsoft, Version=0.11.2.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\MaasOne.Microsoft.dll</HintPath>
+    </Reference>
+    <Reference Include="MaasOne.Yahoo, Version=0.11.2.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\MaasOne.Yahoo.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Windows.Forms.DataVisualization" />
@@ -45,6 +57,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataManager.cs" />
     <Compile Include="Window.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +90,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lilbs\MaasOne.dll" />
+    <Content Include="lilbs\MaasOne.Microsoft.dll" />
+    <Content Include="lilbs\MaasOne.Microsoft.XML" />
+    <Content Include="lilbs\MaasOne.xml" />
+    <Content Include="lilbs\MaasOne.Yahoo.dll" />
+    <Content Include="lilbs\MaasOne.Yahoo.XML" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
